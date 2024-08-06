@@ -1,11 +1,10 @@
 /* место для вашего кода */
 
 .header {
-  margin: 92px 24px 96px 24px;
+  margin: 92px 24px 94px 24px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 105px;
 }
 
 .header__menu {
@@ -32,7 +31,8 @@
 }
 
 .header__logo {
-  height: 100%;
+  display: block;
+  height: 105px; 
   margin: 1px 184px 0 41px;
 }
 
@@ -62,6 +62,8 @@
 .overlay {
   background-color: rgba(0, 0, 0, .6);
   position: absolute;
+  left: 0;
+  top: 0;
   width: 100%;
   height: 100%;
   z-index: -1;
